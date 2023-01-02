@@ -1,0 +1,200 @@
+[*]
+[*] GTKWave Analyzer v3.3.104 (w)1999-2020 BSI
+[*] Sat Dec 31 09:47:40 2022
+[*]
+[dumpfile] "/home/ck/do_sth_here/ysyx/ysyx-workbench/npc/wave.vcd"
+[dumpfile_mtime] "Sat Dec 31 09:08:16 2022"
+[dumpfile_size] 65625
+[savefile] "/home/ck/do_sth_here/ysyx/ysyx-workbench/npc/wave.gtkw"
+[timestart] 1
+[size] 3434 1309
+[pos] 107 741
+*-2.045219 21 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] TOP.
+[treeopen] TOP.tb.
+[treeopen] TOP.tb.u_core_top.
+[treeopen] TOP.tb.u_core_top.u_exu_top.
+[sst_width] 378
+[signals_width] 494
+[sst_expanded] 1
+[sst_vpaned_height] 391
+@200
+-temp
+@28
+TOP.tb.u_core_top.u_info_pipeline.el_dff_pause
+TOP.tb.u_core_top.u_info_pipeline.lsu_valid
+TOP.tb.u_core_top.u_lsu.lsu_valid
+TOP.tb.u_core_top.u_lsu.exu_lsu_valid
+TOP.tb.u_core_top.u_lsu.memory_lsu_valid
+TOP.tb.u_core_top.u_lsu.is_load_store
+@22
+TOP.tb.u_core_top.u_rawu.exu_dst[4:0]
+TOP.tb.u_core_top.u_rawu.exu_src1[4:0]
+TOP.tb.u_core_top.u_rawu.exu_src2[4:0]
+TOP.tb.u_core_top.u_rawu.lsu_dst[4:0]
+TOP.tb.u_core_top.u_rawu.lsu_src1[4:0]
+TOP.tb.u_core_top.u_rawu.lsu_src2[4:0]
+@c00022
+TOP.tb.u_core_top.u_rawu.wbu_dst[4:0]
+@28
+(0)TOP.tb.u_core_top.u_rawu.wbu_dst[4:0]
+(1)TOP.tb.u_core_top.u_rawu.wbu_dst[4:0]
+(2)TOP.tb.u_core_top.u_rawu.wbu_dst[4:0]
+(3)TOP.tb.u_core_top.u_rawu.wbu_dst[4:0]
+(4)TOP.tb.u_core_top.u_rawu.wbu_dst[4:0]
+@1401200
+-group_end
+@22
+TOP.tb.u_core_top.u_rawu.wbu_src1[4:0]
+TOP.tb.u_core_top.u_rawu.wbu_src2[4:0]
+@200
+-
+@28
+TOP.tb.u_core_top.u_info_pipeline.id_dff_reg[96:0]
+TOP.tb.u_core_top.u_info_pipeline.de_dff_reg[186:0]
+TOP.tb.u_core_top.u_info_pipeline.el_dff_reg[411:0]
+TOP.tb.u_core_top.u_info_pipeline.lw_dff[283:0]
+TOP.tb.u_core_top.u_rawu.rawu_pause_before_and_exu
+@200
+-PC_GEN
+@22
+TOP.tb.u_core_top.u_pc_gen.pc[63:0]
+@28
+TOP.tb.u_core_top.u_pc_gen.pc_valid
+TOP.tb.u_core_top.u_pc_gen.core_clk
+TOP.tb.u_core_top.u_pc_gen.is_branch
+TOP.tb.u_core_top.u_pc_gen.el_valid
+@22
+TOP.tb.u_core_top.u_pc_gen.el_branch_pc[63:0]
+@28
+TOP.tb.u_core_top.u_pc_gen.el_branch_taken
+@22
+TOP.tb.u_core_top.u_pc_gen.el_pc[63:0]
+TOP.tb.u_core_top.u_pc_gen.lw_info[36:0]
+TOP.tb.u_core_top.u_pc_gen.lw_pc[63:0]
+@28
+TOP.tb.u_core_top.u_pc_gen.pc_clear_all
+TOP.tb.u_core_top.u_pc_gen.pc_clear_before_lw
+TOP.tb.u_core_top.u_pc_gen.pc_pause
+@22
+TOP.tb.u_core_top.u_pc_gen.pc_reg[63:0]
+@28
+TOP.tb.u_core_top.u_pc_gen.pc_valid_reg
+@200
+-IFU
+@28
+TOP.tb.u_core_top.u_ifu.core_clk
+@22
+TOP.tb.u_core_top.u_ifu.ifu_dfu_pc[63:0]
+TOP.tb.u_core_top.u_ifu.ifu_dfu_inst[31:0]
+@28
+TOP.tb.u_core_top.u_ifu.ifu_dfu_valid
+TOP.tb.u_core_top.u_ifu.ifu_pc_pause
+@22
+TOP.tb.u_core_top.u_ifu.ifu_memory_addr[63:0]
+@28
+TOP.tb.u_core_top.u_ifu.ifu_memory_valid
+@22
+TOP.tb.u_core_top.u_ifu.memory_ifu_data[31:0]
+@28
+TOP.tb.u_core_top.u_ifu.memory_ifu_valid
+@23
+TOP.tb.u_core_top.u_ifu.pc[63:0]
+@28
+TOP.tb.u_core_top.u_ifu.pc_valid
+@200
+-DFU
+@28
+TOP.tb.u_core_top.u_dfu.core_clk
+TOP.tb.u_core_top.u_dfu.ifu_dfu_valid
+@22
+TOP.tb.u_core_top.u_dfu.ifu_dfu_inst[31:0]
+@28
+TOP.tb.u_core_top.u_dfu.dfu_exu_valid
+@22
+TOP.tb.u_core_top.u_dfu.dfu_exu_imm[31:0]
+TOP.tb.u_core_top.u_dfu.dfu_exu_src1[4:0]
+TOP.tb.u_core_top.u_dfu.dfu_exu_src2[4:0]
+TOP.tb.u_core_top.u_dfu.dfu_wbu_dst[4:0]
+TOP.tb.u_core_top.u_dfu.dfu_info[36:0]
+TOP.tb.u_core_top.u_dfu.dfu_inst_type[5:0]
+TOP.tb.u_core_top.u_dfu.opcode_type[5:0]
+TOP.tb.u_core_top.u_dfu.pc[63:0]
+@200
+-EXU
+@28
+TOP.tb.u_core_top.u_exu_top.core_clk
+TOP.tb.u_core_top.u_exu_top.dfu_exu_valid
+@22
+TOP.tb.u_core_top.u_exu_top.dfu_exu_imm[31:0]
+TOP.tb.u_core_top.u_exu_top.dfu_exu_src1[4:0]
+TOP.tb.u_core_top.u_regfile.rf1(11)[63:0]
+TOP.tb.u_core_top.u_regfile.rf1(15)[63:0]
+TOP.tb.u_core_top.u_exu_top.src1[63:0]
+TOP.tb.u_core_top.u_exu_top.dfu_exu_src2[4:0]
+TOP.tb.u_core_top.u_exu_top.src2[63:0]
+TOP.tb.u_core_top.u_exu_top.exu_lsu_addr[63:0]
+TOP.tb.u_core_top.u_exu_top.exu_lsu_data[63:0]
+TOP.tb.u_core_top.u_exu_top.exu_rf_raddr1[4:0]
+TOP.tb.u_core_top.u_exu_top.exu_rf_raddr2[4:0]
+TOP.tb.u_core_top.u_exu_top.rf_exu_rdata1[63:0]
+TOP.tb.u_core_top.u_exu_top.rf_exu_rdata2[63:0]
+TOP.tb.u_core_top.u_exu_top.exu_wbu_dst_data[63:0]
+@28
+TOP.tb.u_core_top.u_exu_top.exu_valid
+@200
+-Lsu
+@28
+TOP.tb.u_core_top.u_lsu.READ[0]
+TOP.tb.u_core_top.u_lsu.WRITE[0]
+TOP.tb.u_core_top.u_lsu.core_clk
+@22
+TOP.tb.u_core_top.u_lsu.dfu_info[36:0]
+TOP.tb.u_core_top.u_lsu.dfu_lsu_info[10:0]
+TOP.tb.u_core_top.u_lsu.exu_lsu_addr[63:0]
+TOP.tb.u_core_top.u_lsu.exu_lsu_data[63:0]
+@28
+TOP.tb.u_core_top.u_lsu.exu_lsu_valid
+TOP.tb.u_core_top.u_lsu.is_load_store
+TOP.tb.u_core_top.u_lsu.lsu_en
+@22
+TOP.tb.u_core_top.u_lsu.lsu_memory_addr[63:0]
+TOP.tb.u_core_top.u_lsu.lsu_memory_data[63:0]
+@28
+TOP.tb.u_core_top.u_lsu.lsu_memory_dir
+TOP.tb.u_core_top.u_lsu.lsu_memory_dir_reg
+TOP.tb.u_core_top.u_lsu.lsu_memory_valid
+TOP.tb.u_core_top.u_lsu.memory_lsu_valid
+TOP.tb.u_core_top.u_lsu.lsu_memory_valid_reg
+@22
+TOP.tb.u_core_top.u_lsu.lsu_memory_width[3:0]
+TOP.tb.u_core_top.u_lsu.lsu_memory_width_reg[3:0]
+@28
+TOP.tb.u_core_top.u_lsu.lsu_pause_before
+TOP.tb.u_core_top.u_lsu.lsu_valid
+@22
+TOP.tb.el_pc[63:0]
+TOP.tb.u_core_top.u_lsu.lsu_wbu_data[63:0]
+TOP.tb.u_core_top.u_lsu.lsu_wbu_data_reg[63:0]
+TOP.tb.u_core_top.u_lsu.memory_lsu_data[63:0]
+@200
+-WBU
+@28
+TOP.tb.u_core_top.u_wbu.core_clk
+TOP.tb.u_core_top.u_wbu.core_rst
+@22
+TOP.tb.u_core_top.u_wbu.dfu_inst_type[5:0]
+TOP.tb.u_core_top.u_wbu.dfu_wbu_dst[4:0]
+@28
+TOP.tb.u_core_top.u_wbu.lsu_wbu_valid
+@22
+TOP.tb.u_core_top.u_wbu.wbu_dst_data[63:0]
+@28
+TOP.tb.u_core_top.u_wbu.wbu_rf_en
+@22
+TOP.tb.u_core_top.u_wbu.wbu_rf_waddr[4:0]
+TOP.tb.u_core_top.u_wbu.wbu_rf_wdata[63:0]
+TOP.tb.lw_pc[63:0]
+TOP.tb.lw_pc_delay[63:0]
+[pattern_trace] 1
+[pattern_trace] 0
